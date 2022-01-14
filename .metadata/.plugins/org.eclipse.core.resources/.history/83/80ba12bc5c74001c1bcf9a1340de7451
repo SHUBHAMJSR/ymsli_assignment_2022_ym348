@@ -1,0 +1,24 @@
+package com.ymsli.Assignment2;
+
+public class BookStore {
+	
+	Book[] books=new Book[10];
+	books[0]=new Book("Beleive in Yourself","Joseph Murphy","1111",200);
+	
+	
+	
+	
+	void sell(String bookTitle, int noOfCopies)
+	{
+		
+	}
+	void order(String isbn, int nofOfCopies)
+	{
+		
+	}
+	void display()
+	{
+		
+	}
+
+}
