@@ -1,0 +1,24 @@
+package com.ymsli.assignment3.question1;
+
+abstract class Employee {
+	private int employeeId;
+	private String empname;
+
+	
+	public Employee(int employeeId, String empname) {
+
+		this.employeeId = employeeId;
+		this.empname = empname;
+	}
+	public abstract double getEmployeeSalary();
+	public void display()
+	{
+		System.out.println("Employee id: "+employeeId+" Employee name: "+empname);
+	}
+
+	public void sal_increase(double incrementSalInterest,double Salary)
+	{
+		System.out.println("The increased salary will be: "+((incrementSalInterest*Salary)/100));
+	}
+	
+}

@@ -1,0 +1,31 @@
+package com.ymsli.assignment3.question1;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class EmployeeSystem {
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		
+		
+		 ArrayList<Employee> emp
+         = new ArrayList<Employee>(3);
+		 
+		 for (int i = 0; i < 3; i++)
+		 {	 
+			System.out.println("Enter empid and name");
+			int empid=in.nextInt();
+			String name=in.nextLine();
+			
+			System.out.println(" Enter the weekly salary of an employee");
+			double sal=in.nextDouble();
+
+			System.out.println("Enter the rate of an employee");
+			double rate=in.nextDouble();
+			Employee e=new Employee(empid,name);
+	        emp.add(e);
+		}
+		
+		
+	}
+}

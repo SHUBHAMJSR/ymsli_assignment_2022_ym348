@@ -1,0 +1,20 @@
+package com.ymsli.assignment3.question1;
+
+public class HourlyEmployee extends Employee{
+	
+	private double hourlyRate;
+	private int numberOfHoursWeek;
+	
+	public HourlyEmployee(int employeeId, String empname,double hourlyRate,int numberOfHoursWeek) {
+		super(employeeId, empname);
+		// TODO Auto-generated constructor stub
+		this.hourlyRate=hourlyRate;
+		this.numberOfHoursWeek=numberOfHoursWeek;
+	}
+	
+	public double getEmployeeSalary()
+	{
+		return hourlyRate*numberOfHoursWeek;
+	}
+	
+}

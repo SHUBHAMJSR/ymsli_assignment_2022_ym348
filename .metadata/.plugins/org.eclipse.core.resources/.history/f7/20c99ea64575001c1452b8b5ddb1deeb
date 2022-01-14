@@ -1,0 +1,5 @@
+package com.ymsli.Day3.question2;
+
+public interface Payable {
+	public abstract double getPayment();
+}

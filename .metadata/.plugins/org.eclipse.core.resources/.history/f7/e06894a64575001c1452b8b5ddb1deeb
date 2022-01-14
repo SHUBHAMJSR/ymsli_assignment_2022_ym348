@@ -1,0 +1,8 @@
+package com.ymsli.Day3.question2;
+
+public class Employee implements Payable{
+	public double getPayment()
+	{
+		return quantity*pricePerItem;
+	}
+}

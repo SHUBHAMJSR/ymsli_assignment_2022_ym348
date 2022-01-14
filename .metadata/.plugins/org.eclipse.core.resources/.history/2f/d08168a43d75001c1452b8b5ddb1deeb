@@ -1,0 +1,22 @@
+package com.ymsli.assignment3.question1;
+
+abstract class Employee {
+	private int employeeId;
+	private String empname;
+	private double empSalary;
+	
+	public Employee(int employeeId, String empname, double empSalary) {
+
+		this.employeeId = employeeId;
+		this.empname = empname;
+		this.empSalary = empSalary;
+	}
+	public abstract double getEmployeeSalary(double sal);
+	public void display()
+	{
+		System.out.println("Employee id: "+employeeId+" Employee name: "+empname+" Employee Salary: "+empSalary);
+	}
+
+	
+	
+}
