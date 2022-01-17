@@ -17,10 +17,6 @@ class CommissionEmployee extends Employee{
 		return percentageOfSales*weeklySale;
 	}
 
-	
-	public double getPercentageOfSales() {
-		return percentageOfSales;
-	}
 
 	public void setPercentageOfSales(double percentageOfSales) {
 		this.percentageOfSales = percentageOfSales;

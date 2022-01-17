@@ -23,19 +23,25 @@ class EmployeeSystem {
 	        emp.add(h);
 	        
 	        emp.add(c);
+
+	        
+	        Invoice invoice=new Invoice("part1","Desktop",10,15000.00);
 	        
 	        for(Employee temp:emp)
 	        {
 	        	System.out.println("Employee id: "+temp.getEmployeeId());
 	        	System.out.println("Employee name "+temp.getEmpname());
 	        	System.out.println("Employee Salary "+temp.getEmployeeSalary());
-	        	
+	        	System.out.println("Payment for the salary: "+temp.getPayment());
 	        	System.out.println("Want to increase the Weekly rate, hourly rate or Weekly sale  of the salaried employee? type y for yes");
 	        	char ch=in.next().charAt(0);
 	        	if(ch=='y') {
 	        		temp.setEmployeeSalary(5);
 	        	}
+	        	
 	        }
+	        
+	        System.out.println("Invoice payment: "+ invoice.getPayment());
 	        
 
 	        

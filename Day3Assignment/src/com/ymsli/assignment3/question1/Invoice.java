@@ -5,6 +5,15 @@ public class Invoice implements Payable{
 	private String partDescription;
 	private int quantity;
 	private double pricePerItem;
+	
+	
+	public Invoice(String partNum, String partDescription, int quantity, double pricePerItem) {
+		super();
+		this.partNum = partNum;
+		this.partDescription = partDescription;
+		this.quantity = quantity;
+		this.pricePerItem = pricePerItem;
+	}
 	public String getPartNum() {
 		return partNum;
 	}

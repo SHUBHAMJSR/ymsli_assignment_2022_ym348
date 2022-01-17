@@ -32,4 +32,8 @@ class SalariedEmployee extends Employee{
 	{
 		return weeklyRate*numberOfWeek;
 	}
+	public double getPayment()
+	{
+		return this.getEmployeeSalary();
+	}
 }

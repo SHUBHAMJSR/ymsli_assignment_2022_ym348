@@ -19,7 +19,12 @@ class HourlyEmployee extends Employee{
 	public double getHourlyRate() {
 		return hourlyRate;
 	}
-
+	
+	public double getPayment()
+	{
+		return this.getEmployeeSalary();
+	}
+	
 	public void setHourlyRate(double hourlyRate) {
 		this.hourlyRate = hourlyRate;
 	}
