@@ -1,4 +1,4 @@
-package com.ymsli.day5.question1;
+package com.ymsli.day5.question2;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
